@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #2c3e50;
+}
+
+/* Section spacing */
+div {
+    margin-bottom: 20px;
+}
+
+/* Images styling */
+img {
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect (important for design feel) */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Project & infographic layout */
+.projects, .infographics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card style */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+/* Contact section */
+p {
+    line-height: 1.6;
+}
